@@ -1,0 +1,74 @@
+div{
+    border: 1px;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+header{
+    display: flex;
+    background-color: rgb(222, 221, 221);
+    height: 15vh; 
+    justify-content: center;
+    align-items: center;
+}
+main{
+    margin: 2%;
+    width: 70vw;
+    height: 60vh;
+}
+.mainpart{
+    height: 15vh;
+    text-align: center;
+    padding-top: 3%;
+    justify-content: center;
+    align-items: center;
+}
+.box1, .box2{
+    margin: 2%;
+    background-color: rgb(252, 241, 199);
+    height: 13vh;
+    width: 30vw;
+    text-align: center;
+    padding-top: 2%;
+}
+.box3{
+    margin: 2%;
+    background-color: rgb(252, 241, 199); 
+    height: 13vh; 
+    text-align: center;
+    padding-top: 2%;
+}
+footer{
+    background-color: rgb(222, 221, 221);
+}
+.flexcontainer{
+    display: flex;
+    background-color: rgb(251, 245, 230);
+    align-content: space-between;
+}
+
+.flexcontainer1{
+    display: flex;
+    justify-content: center;
+}
+.flexcontainer2{
+    display: flex;
+    background-color: rgb(200, 225, 200);
+    width: 35vw;    
+    justify-content: center;
+    padding-top: 3%;
+}
+.flexcontainer3{
+    display: flex;
+    justify-content: space-around;
+}
+section{
+    margin: 2%;
+    height: 12vh;
+    width: 30vw;
+    background-color: rgb(235, 234, 234);
+    text-align: center;
+    padding-top: 2%;
+}
